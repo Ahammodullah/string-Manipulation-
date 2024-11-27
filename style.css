@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f7fa;
+}
+.card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 480px;
+    text-align: center;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+h1 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #444;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+}
+h2 {
+    margin-top: 30px;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #333;
+}
+.results p {
+    margin: 12px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+.results span {
+    font-weight: 500;
+    color: #007bff;
+}
